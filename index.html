@@ -1,0 +1,136 @@
+<head>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/scrolling-nav.css">
+    <!-- Scripts -->
+
+    <script src="./js/jquery-3.1.1.js"></script>
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/scrolling-nav.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Poiret One' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+
+</head>
+
+
+<body>
+<!--NAVBAR-->
+<div id="top"></div>
+<nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#top">qq7</a>
+        </div>
+            <div class="collapse navbar-collapse" id="collapse-navbar">
+            <ul class="nav navbar-nav">
+                <li><a class="page-scroll" href="#top"><span class="fa fa-user-secret"></span> About me </a></li>
+                <li><a class="page-scroll" href="#portfolio"><span class="fa fa-space-shuttle"></span> Portfolio </a></li>
+                <li><a class="page-scroll" href="#contacts"><span class="fa fa-address-book"></span> Contacts </a></li>
+            </ul>
+            </div>
+    </div>
+</nav>
+
+
+<!-- Main body -->
+<div class="container">
+    <div class="jumbotron" id="header">
+      <div class="row">
+          <div class="col-md-8">
+              <h6 class="help-block text-info"><i class="fa fa-map-marker"></i> Ukraine, Kiev</h6>
+              <h3 class="text-center">Evgeniy Hvorostyan</h3>
+              <p>Here am I, making a project,
+              <a href="http://freecodecamp.com/" target="_blank"><span class="fa fa-free-code-camp"></span> freeCodeCamp</a>'
+                  s challange to make a portfolio page is done. I guess.</p>
+          </div>
+          <div class="col-md-4"><link href="css/scrolling-nav.css" rel="stylesheet">
+            <img class="img-circle img-responsive" src="https://avatars3.githubusercontent.com/u/21182031?v=3&u=ca25ed543270fdb03093c0d1c41be6b3187dd0a4&s=400"
+            alt ="Image of the most beautiful animey being">
+          </div>
+      </div>
+    </div>
+    <div>
+        <div class="panel-heading"><h3 class="text-center">Portfolio</h3></div>
+            <div id="portfolio" class="jumbotron ">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="well well-lg">
+                            <h5 class="portfolio-name">Website scraper</h5>
+                            <h6><span class="glyphicon glyphicon-info-sign"></span> Project info: </h6>
+                            <hr />
+                            <p class="portfolio-info">I made this tiny scraping script for my daily needs. Made this work using
+                                Python Beautiful Soup library and regular expressions</p>
+                            <a href="https://github.com/qq7/fox-fan.ru-scraping" target="_blank">github.com/qq7/fox-fan.ru-scraping</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="well well-lg">
+                            <h5 class="portfolio-name">Personal portfolio</h5>
+                            <h6><span class="glyphicon glyphicon-info-sign"></span> Project info: </h6>
+                            <hr />
+                            <img src="http://i.imgur.com/UyvCmCa.png" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="well well-lg">
+                            <h5 class="portfolio-name">Lorem ipsum</h5>
+                            <h6><span class="glyphicon glyphicon-info-sign"></span> Project info: </h6>
+                            <hr />
+                            <p class="portfolio-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida mi
+                                arcu, consectetur porttitor dolor malesuada nec. Vivamus placerat nulla ligula, in elementum
+                                sem cursus fermentum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div>
+        <div class="panel-heading"><h3 class="text-center">Say hello</h3></div>
+        <div id="contacts" class="jumbotron">
+            <div class="row">
+                <div class="col-md-5">
+                    <form>
+                        <div class="form-group-lg">
+                            <label for="email">Mail: </label>
+                            <input id="email" type="email" placeholder="E-mail" class="form-control">
+                        </div>
+                        <div class="form-group-lg">
+                            <label for="nameInput">Your name: </label>
+                            <input type="text" id="nameInput" placeholder="Name" class="form-control">
+                        </div>
+                        <div class="form-group-lg">
+                            <label for="message">Your message:</label>
+                            <textarea class="form-control" rows="5" id="message" placeholder="Message"></textarea>
+                            <span class="help-block">1000 symbols allowed</span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Drop me a line</button>
+                    </form>
+                </div>
+                <div class="col-md-7" id="dropALine">
+                    <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for
+                        my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of
+                        life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a
+                        line anytime.
+                    </p><p>
+                        I promise to reply A.S.A.P.</p>
+                    <h1>
+                        <a class="contact-icons" href="https://www.vk.com/id56383110" target="_blank"><span class="fa fa-vk"></span></a>
+                        <a class="contact-icons" href="https://www.github.com/qq7" target="_blank"><span class="fa fa-github"></span></a>
+                        <a class="contact-icons" href="https://www.freecodecamp.com/qq7" target="_blank"><span class="fa fa-free-code-camp"></span></a>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
